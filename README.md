@@ -1,86 +1,108 @@
-# Jaji Car Battery Replacement & Auto Spare Parts Trading
+# AL Riyah Car Battery Service & Auto Spare Parts
 
-**Premium Auto Parts Store in Abu Dhabi** – A modern, responsive, and animated website showcasing car spare parts, batteries, and accessories. Built with **React**, **TailwindCSS**, and **Framer Motion**, designed for both desktop and mobile.
+**Industrial Automotive Hub & 24/7 Roadside Rescue in Abu Dhabi** – A high-performance, mobile-first web platform engineered for rapid on-site battery dispatch, walk-in counter retail, and auto spare parts sales. Built with **React 18**, **Tailwind CSS**, **DaisyUI**, and **Framer Motion**.
 
 ---
 
 ## Table of Contents
 
-- [Live](#live)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [SEO & Optimization](#seo--optimization)
-- [Usage](#usage)
-- [License](#license)
+* [Overview](https://www.google.com/search?q=%23overview)
+* [Live Deployment](https://www.google.com/search?q=%23live-deployment)
+* [Operational Profile](https://www.google.com/search?q=%23operational-profile)
+* [Core Features](https://www.google.com/search?q=%23core-features)
+* [Design System & Tech Stack](https://www.google.com/search?q=%23design-system--tech-stack)
+* [Project Architecture](https://www.google.com/search?q=%23project-architecture)
+* [SEO & Technical Schemas](https://www.google.com/search?q=%23seo--technical-schemas)
+* [License](https://www.google.com/search?q=%23license)
 
 ---
 
-## Live
+## Overview
 
-> **Live URL:** _([www.jajicarbatteryautospareparts.com](jajicarbatteryautospareparts.com))_
-
----
-
-## Features
-
-- Fully **responsive layout** for desktop, tablet, and mobile
-- **Animated sections** using Framer Motion
-- Interactive **product gallery** with modal zoom
-- **Store location map** integrated with Google Maps
-- **Business info cards** with hover effects
-- **Scroll-to-section navigation**, smooth scroll for desktop and mobile
-- **SEO optimized** with meta tags, Open Graph, Twitter Cards, and structured data
-- Support for **Arabic search** and accessibility-friendly design
+AL Riyah Car Battery Service & Auto Spare Parts provides emergency 24/7 roadside battery replacement and counter spare parts sales across Abu Dhabi. The web interface delivers immediate emergency conversion paths through direct phone dispatch, WhatsApp live GPS coordinate sharing, inventory filtering, and verified workshop route mapping.
 
 ---
 
-## Technologies
+## Live Deployment
 
-- **React 18**
-- **Tailwind CSS 3.x**
-- **Framer Motion**
-- **React Icons**
-- **Google Maps Embed**
-- **Vite** as the build tool
+* **Production Domain:** [https://alriyahbattery.com](https://alriyahbattery.com)
+* **Direct Dispatcher:** `+971 56 705 8128`
+* **Workshop Hub:** Musaffah - M6, Abu Dhabi, UAE (Plus Code: `9GC7+PH`)
 
 ---
 
-## Project Structure
+## Operational Profile
+
+| Metric | Specification |
+| --- | --- |
+| **Primary Operations** | 24/7 Roadside Battery Rescue, Alternator/Starter Testing, Auto Spare Parts |
+| **Fulfillment Modes** | Mobile Field Dispatch, In-Store Shopping, Counter Pick-Up |
+| **Emergency Arrival ETA** | 25–35 Minutes across Abu Dhabi sectors |
+| **Battery Technologies** | AGM (Absorbent Glass Mat), EFB, SMF Calcium, Heavy Commercial |
+| **Physical Depot** | Industrial Workshop Counter, Musaffah M-6 |
+
+---
+
+## Core Features
+
+* **Direct Emergency Telemetry:** One-tap calling to `056 705 8128` and automated WhatsApp query links pre-populated with live GPS location requests.
+* **Floating Operational Command (FAB):** Persistent bottom-right quick-action trigger with scroll-aware auto-collapse and live status pulse.
+* **Dynamic Brand Filter Catalog:** Instant client-side filtering across tier-1 battery brands (VARTA, Amaron, FIAMM, SEBANG, Tuflong, Platinum) with technical spec cards.
+* **Product Inspection Modal:** Lightbox diagnostics viewport displaying grid alloy details, recommended chassis fitment, and manufacturer warranty coverage.
+* **Integrated Google Place Embed:** Direct Musaffah M-6 workshop map integration paired with coordinate badges and external turn-by-turn routing.
+* **Adaptive Performance Media:** Responsive WebP image pipelines (`Banner-500`, `Banner-768`, `Banner-1024`) with layout shift mitigation.
+
+---
+
+## Design System & Tech Stack
+
+* **Framework:** React 18 with Vite
+* **Styling Engine:** Tailwind CSS + DaisyUI
+* **Typography:** Chakra Petch (Technical Display/Headings) & Plus Jakarta Sans (Interface/Body)
+* **Animation Pipeline:** Framer Motion (Spring-based physics, staggered entrances, layout transitions)
+* **Icons:** React Icons (`hi2` Heroicons v2 & `fa` FontAwesome)
+* **Semantic Theme Mapping:**
+* Brand: `primary` (Deep Plum), `secondary`, `accent`
+* Base Surfaces: `base-100` (Surface), `base-200` (Elevation), `base-300` (Borders/Dividers), `base-content`
+* Feedback Channels: `success` (WhatsApp / Field Active), `error` (Emergency Live Pulse), `neutral`
+
+
+
+---
+
+## Project Architecture
 
 ```
 src/
- ├─ assets/           # Images, logos
- ├─ components/       # React components (Navbar, Hero, ProductsGallery, etc.)
- ├─ App.jsx           # Main App component
- ├─ main.jsx          # Entry point
- └─ index.css         # Tailwind imports and global styles
+ ├─ assets/
+ │   ├─ Batteries/        # Optimized WebP battery assets (Amaron, VARTA, FIAMM, etc.)
+ │   ├─ Banner-*.webp     # Multi-resolution workshop visual assets
+ │   └─ logo.png          # AL Riyah identity mark
+ ├─ components/
+ │   ├─ Navbar.jsx        # Navigation shell with quick call trigger
+ │   ├─ Hero.jsx          # Industrial hero section with capability badges
+ │   ├─ AboutUs.jsx       # Operational technical profile & diagnostic tab switcher
+ │   ├─ ProductsGallery.jsx # Battery registry, brand filter bar & spec modal
+ │   ├─ Contact.jsx       # Emergency voice & WhatsApp GPS dispatch terminals
+ │   ├─ StoreMap.jsx      # Musaffah M-6 coordinate frame & verified embed
+ │   ├─ FAB.jsx           # Floating emergency dispatch button
+ │   └─ Footer.jsx        # Operational directory, hours, and legal indexing
+ ├─ App.jsx               # Layout scaffold
+ ├─ index.css             # Tailwind layers & Chakra Petch typography rules
+ └─ main.jsx              # React DOM mounting
+
 ```
 
 ---
 
-## SEO & Optimization
+## SEO & Technical Schemas
 
-- **Title & Meta Description** for all pages
-- **Keywords** optimized for "auto parts Abu Dhabi", "car batteries UAE", etc.
-- **Canonical URL** included
-- **Open Graph & Twitter Cards** for social sharing
-- **Structured Data (Schema.org)** for LocalBusiness
-- **Smooth scroll** with fixed headers handled for mobile & desktop
-- **Lazy-loading** for images and Google Map iframe
-
----
-
-## Usage
-
-- Click **navbar items** to scroll to specific sections
-- Mobile menu supports smooth scroll and closes on selection
-- Product gallery supports **modal zoom view**
-- Map section shows store location in Abu Dhabi
+* **JSON-LD Microdata:** Embedded `AutoPartsStore` and `AutomotiveBusiness` schemas detailing 24/7 operating schedules, Musaffah M-6 postal parameters, and phone touchpoints.
+* **Search Metadata:** Targeted regional indexing for "car battery replacement Musaffah", "auto spare parts Abu Dhabi", and "24/7 mobile battery delivery UAE".
+* **Crawler Directives:** Production XML sitemap and clean `robots.txt` configuration routing search crawlers to verified endpoints.
 
 ---
 
 ## License
 
-MIT License © 2026 **Jaji Car Battery Replacement & Auto Spare Parts Trading**
+MIT License © 2026 **AL Riyah Car Battery Service & Auto Spare Parts**. All rights reserved.
