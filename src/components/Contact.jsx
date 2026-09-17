@@ -34,7 +34,7 @@ const structuredData = {
     contactType: "customer service",
     availableLanguage: ["English", "Arabic"],
   },
-  url: "https://alriyahbattery.com",
+  url: "https://alriyahcarbatteries.com",
 };
 
 const Contact = () => {

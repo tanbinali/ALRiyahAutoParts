@@ -25,7 +25,7 @@ AL Riyah Car Battery Service & Auto Spare Parts provides emergency 24/7 roadside
 
 ## Live Deployment
 
-* **Production Domain:** [https://alriyahbattery.com](https://alriyahbattery.com)
+* **Production Domain:** [https://alriyahcarbatteries.com](https://alriyahcarbatteries.com)
 * **Direct Dispatcher:** `+971 56 705 8128`
 * **Workshop Hub:** Musaffah - M6, Abu Dhabi, UAE (Plus Code: `9GC7+PH`)
 

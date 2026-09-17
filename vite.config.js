@@ -11,7 +11,7 @@ export default defineConfig({
     react(),
     imagetools(),
     sitemap({
-      hostname: "https://www.jajicarbatteryautospareparts.com",
+      hostname: "https://www.alriyahcarbatteries.com",
       outDir: "./dist",
     }),
   ],

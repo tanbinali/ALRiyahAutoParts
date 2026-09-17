@@ -17,7 +17,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "AutoPartsStore",
   name: "AL Riyah Car Battery Service & Auto Spare Parts",
-  image: "https://alriyahbattery.com/logo.png",
+  image: "https://alriyahcarbatteries.com/logo.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Musaffah - M6",
@@ -31,7 +31,7 @@ const structuredData = {
     postalCode: "9GC7+PH",
   },
   telephone: "+971567058128",
-  url: "https://alriyahbattery.com",
+  url: "https://alriyahcarbatteries.com",
   openingHours: "Mo-Su 00:00-23:59",
   areaServed: "Abu Dhabi, UAE",
   hasMap: MAPS_URL,

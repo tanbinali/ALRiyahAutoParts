@@ -20,7 +20,7 @@ const structuredData = {
   "@type": "AutoPartsStore",
   name: "AL Riyah Car Battery Service & Auto Spare Parts",
   serviceType: "24/7 On-Site Car Battery Replacement & Parts Delivery",
-  image: "https://alriyahbattery.com/banner.png",
+  image: "https://alriyahcarbatteries.com/banner.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Musaffah - M6",
@@ -33,7 +33,7 @@ const structuredData = {
   },
   openingHours: "Mo-Su 00:00-23:59",
   telephone: "+971567058128",
-  url: "https://alriyahbattery.com",
+  url: "https://alriyahcarbatteries.com",
 };
 
 const serviceTiers = [
